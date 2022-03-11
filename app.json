@@ -98,12 +98,12 @@
         "ANTİ_LİNK": {
             "description": "Link Blocking System.",
             "required": true,
-            "value": "false"
+            "value": "true"
         },
         "FAKE_REMOVE": {
             "description": "Fake number removing.",
             "required": true,
-            "value": "false"
+            "value": "true"
         },
         "C_CODE": {
             "description": "Fake number not  removing country code.",
@@ -112,7 +112,7 @@
         },
         "TAG_REPLY": {
             "description": "Enter jid of your number so that you get a audio reply when metioned example - 91xxxxxxxxxx@s.whatsapp.net - for india",
-            "required": false          
+            "required": true          
         },
         "BGM_DURATION": {
             "description": "FUNY BGM DURATION  codded by SAIDALI",
@@ -127,7 +127,7 @@
          "BAD_WORDS": {
             "description": "enter the word you dont allow in your group ",
             "required": true,
-            "value": "false"
+            "value": "true"
         },
         "HANDLERS": {
             "description": "For commands.",
@@ -165,12 +165,12 @@
         },
         "MUTE_MESSAGE": {
             "description": "Customizable Mute Message! Use => default, to change back.",
-            "required": false,
-            "value": "default"
+            "required": true,
+            "value": "true"
         },
         "TAG_HEADER": {
             "description": "Heading when taging all",
-            "required": false,
+            "required": true,
             "value": "ʜᴇʟᴏ ɢᴜʏs"
         },
         "CMD_LIST": {
@@ -185,8 +185,8 @@
         },
         "UNMUTE_MESSAGE": {
             "description": "Customizable Unmute Message! Use => default, to change back.",
-            "required": false,
-            "value": "default"
+            "required":true,
+            "value": "true"
         },
         "BLOCK_MESSAGE": {
             "description": "Customizable Block Message! Use => default, to change back.",
@@ -220,17 +220,17 @@
         "OWNER_NAME": {
             "description": "reply for .owner ! give your details, Use => default, to change back.",
             "required": false,
-            "value": "ᴀᴊғx"
+            "value": amal
         },
         "OWNER_NUMBER": {
             "description": "Enter the owner number, You must enter your number, Please don't enter the number with country code ( example : 91 for indian ) Also don't enter space & + on the number ( example : 91996132xxxx for indian ). ( This number will be shown on some commands )",
             "required": false,
-            "value": "918281440156"
+            "value": "918281349431"
         },
         "NUMBER": {
             "description": "Enter the owner number, You must enter your number, Please don't enter the number with country code ( example : 91 for indian ) Also don't enter space & + on the number ( example : 91996132xxxx for indian ). ( This number will be shown on some commands )",
             "required": false,
-            "value": "918281440156"
+            "value": "918281349431"
         },
         "DEPLOYER": {
             "description": "enter your name here",
@@ -247,8 +247,8 @@
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
-            "required": false,
-            "value": "default"
+            "required": true,
+            "value": "true"
         },
         "SONGD": {
             "description": "Customizable song DOWNLOADING message instead of 'Dowloading your song'",
@@ -262,18 +262,18 @@
         },
         "ADD_MESSAGE": {
             "description": "Customizable Add Message! Use => default, to change back.",
-            "required": false,
-            "value": "default"
+            "required": true,
+            "value": "true"
         },
         "KICKME_MESSAGE": {
             "description": "Customizable Kickme Message! Use => default, to change back.",
-            "required": false,
-            "value": "default"      
+            "required": true,
+            "value": "true"      
         },
         "PROMOTE_MESSAGE": {
             "description": "Customizable Promote Message! Use => default, to change back.",
-            "required": false,
-            "value": "default"
+            "required": true,
+            "value": "true"
         },
         "DEMOTE_MESSAGE": {
             "description": "Customizable Demote Message! Use => default, to change back.",
